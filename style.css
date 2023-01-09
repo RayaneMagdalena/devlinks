@@ -165,3 +165,16 @@ footer {
     font-size: 14px;
     display: none;
 }
+
+/* media queries */
+
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg_dark.jpg);
+    }
+
+    .light {
+        --bg-url: url(./assets/bg_light.jpg);
+    }
+
+}
